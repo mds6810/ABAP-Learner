@@ -14,7 +14,7 @@ ENDCLASS.
 
 CLASS zcl_abapgit_helloworld IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-   out->write( 'Hello World!' ).
+   out->write( 'Hello World!' )."test
   ENDMETHOD.
 
 ENDCLASS.
