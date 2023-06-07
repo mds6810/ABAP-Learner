@@ -1,0 +1,20 @@
+managed implementation in class zbp_i_qen_cds unique;
+
+define behavior for ZI_QEN_CDS alias InvoiceDet
+persistent table zdel_inv_data
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+
+  mapping for ZDEL_INV_DATA
+  {
+
+   Projid = proj_Id;
+
+     }
+}

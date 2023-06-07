@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Qen Invoice'
+define service ZEXPO_QEN_DINV {
+  expose ZC_QEN_CDS;
+}
